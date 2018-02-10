@@ -18,7 +18,9 @@ CREATE TABLE favorites (
   poster_path VARCHAR (250) NOT NULL,
   release_date VARCHAR (123) NOT NULL,
   vote_average VARCHAR (123) NOT NULL,
-  overview VARCHAR NOT NULL
+  overview VARCHAR NOT NULL,
+  backdrop_path VARCHAR NOT NULL,
+  favorite BOOLEAN 
 );
 
 CREATE UNIQUE INDEX email ON users (email);
